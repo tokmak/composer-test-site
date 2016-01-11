@@ -1,0 +1,21 @@
+{
+	"name": "digital-spin/composer-test-site",
+	"description": "Composer Site",
+	"license": "proprietary",
+	"repositories": [
+		{
+			"packagist": false
+		},
+		{
+			"type": "composer",
+			"url": "http://local-composer/"
+		}
+	],
+	"require": {
+		"composer/installers": "1.0.12.*",
+		"digital-spin/composer-test-package-plugin": "~1.0"
+	},
+	"minimum-stability": "dev"
+}
+
+
